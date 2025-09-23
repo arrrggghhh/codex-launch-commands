@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+exec codex -m gpt-5 -c model_reasoning_effort=medium "$@"
+
